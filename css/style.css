@@ -1,0 +1,44 @@
+.gradienteLaranja{
+    background-image: linear-gradient(to left, #ef3700  , #feb300);
+}
+.gradienteVerde{
+    background-image: linear-gradient(to left, #47a300, #84fc00);
+}
+.gradienteVermelho{
+    background-image: linear-gradient(to left, #cc171c, red);
+}
+.fundoRocho{
+    background-color: #380261;
+}
+.fundoRocho2{
+    background-color: #59018c;
+}
+
+.fundoLaranja{
+    background-color: #e16109;
+}
+.textoRocho{
+    color: #520182;
+}
+.card{
+    border: 0px;
+    text-align: center;
+}
+@media (max-width: 450px) {
+  .fundoImagem{
+    background-image: url(telemarketing.jpg);
+    background-size: cover;
+  }
+  .textoSobre{
+     padding-top: 15px;   
+  }
+}
+@media (min-width: 451px) {
+  .fundoImagem{
+    background-image: url(telemarketing.jpg);
+    height: 220px;
+}
+    .textoSobre{
+     padding-top: 60px;   
+  }
+}
